@@ -16,7 +16,7 @@ var Module = typeof Module != 'undefined' ? Module : {};
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmph_czzyg0.js
+// include: /tmp/tmpx7pabh3t.js
 
   if (!Module.expectedDataFileDownloads) {
     Module.expectedDataFileDownloads = 0;
@@ -191,25 +191,25 @@ Module['FS_createPath']("/", "assets", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/buttonBox.gif", "start": 0, "end": 80166}, {"filename": "/assets/clicker.gif", "start": 80166, "end": 967869}, {"filename": "/assets/emperorShopUI.png", "start": 967869, "end": 1135789}, {"filename": "/assets/madeWithUnity.gif", "start": 1135789, "end": 17303997}, {"filename": "/assets/mainScreenBackground.png", "start": 17303997, "end": 17373510}, {"filename": "/assets/penguinBackground.png", "start": 17373510, "end": 17526179}, {"filename": "/assets/penguinLol.gif", "start": 17526179, "end": 17584711}, {"filename": "/assets/shopBoard.png", "start": 17584711, "end": 17749598}, {"filename": "/assets/stoneCurrency.png", "start": 17749598, "end": 18485491}, {"filename": "/assets/toEmperorsEmporiumIcon.png", "start": 18485491, "end": 19419195}, {"filename": "/assets/toGameIcon.png", "start": 19419195, "end": 20220103}], "remote_package_size": 20220103});
+    loadPackage({"files": [{"filename": "/assets/booperTool.png", "start": 0, "end": 89140}, {"filename": "/assets/buttonBox.gif", "start": 89140, "end": 169306}, {"filename": "/assets/clicker.gif", "start": 169306, "end": 1057009}, {"filename": "/assets/clickerTool.png", "start": 1057009, "end": 1058204}, {"filename": "/assets/emperorShopUI.png", "start": 1058204, "end": 1226124}, {"filename": "/assets/madeWithUnity.gif", "start": 1226124, "end": 17394332}, {"filename": "/assets/mainScreenBackground.png", "start": 17394332, "end": 17463845}, {"filename": "/assets/penguinBackground.png", "start": 17463845, "end": 17616514}, {"filename": "/assets/penguinLol.gif", "start": 17616514, "end": 17675046}, {"filename": "/assets/shopBoard.png", "start": 17675046, "end": 17839933}, {"filename": "/assets/stoneCurrency.png", "start": 17839933, "end": 18575826}, {"filename": "/assets/toEmperorsEmporiumIcon.png", "start": 18575826, "end": 19509530}, {"filename": "/assets/toGameIcon.png", "start": 19509530, "end": 20310438}], "remote_package_size": 20310438});
 
   })();
 
-// end include: /tmp/tmph_czzyg0.js
-// include: /tmp/tmp5u7cx96y.js
+// end include: /tmp/tmpx7pabh3t.js
+// include: /tmp/tmp32owq76m.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['ENVIRONMENT_IS_PTHREAD'] || Module['$ww']) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmp5u7cx96y.js
-// include: /tmp/tmpe9jagjeo.js
+  // end include: /tmp/tmp32owq76m.js
+// include: /tmp/tmpa5hplkew.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach(function(task) {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpe9jagjeo.js
+  // end include: /tmp/tmpa5hplkew.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -1180,40 +1180,40 @@ function dbg(...args) {
 // === Body ===
 
 var ASM_CONSTS = {
-  16802208: () => { if (document.fullscreenElement) return 1; },  
- 16802254: () => { return document.getElementById('canvas').width; },  
- 16802306: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 16802374: () => { document.exitFullscreen(); },  
- 16802401: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 16802474: () => { if (document.fullscreenElement) return 1; },  
- 16802520: () => { return document.getElementById('canvas').width; },  
- 16802572: () => { return screen.width; },  
- 16802597: () => { document.exitFullscreen(); },  
- 16802624: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 16802757: () => { if (document.fullscreenElement) return 1; },  
- 16802803: () => { return document.getElementById('canvas').width; },  
- 16802855: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 16802923: () => { if (document.fullscreenElement) return 1; },  
- 16802969: () => { return document.getElementById('canvas').width; },  
- 16803021: () => { return screen.width; },  
- 16803046: () => { if (document.fullscreenElement) return 1; },  
- 16803092: () => { return document.getElementById('canvas').width; },  
- 16803144: () => { return screen.width; },  
- 16803169: () => { document.exitFullscreen(); },  
- 16803196: () => { if (document.fullscreenElement) return 1; },  
- 16803242: () => { return document.getElementById('canvas').width; },  
- 16803294: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 16803362: () => { document.exitFullscreen(); },  
- 16803389: () => { return screen.width; },  
- 16803414: () => { return screen.height; },  
- 16803440: () => { return window.screenX; },  
- 16803467: () => { return window.screenY; },  
- 16803494: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 16803547: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 16803618: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 16803675: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 16803746: () => { if (document.fullscreenElement) return 1; },  
- 16803792: () => { if (document.pointerLockElement) return 1; }
+  16802448: () => { if (document.fullscreenElement) return 1; },  
+ 16802494: () => { return document.getElementById('canvas').width; },  
+ 16802546: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 16802614: () => { document.exitFullscreen(); },  
+ 16802641: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 16802714: () => { if (document.fullscreenElement) return 1; },  
+ 16802760: () => { return document.getElementById('canvas').width; },  
+ 16802812: () => { return screen.width; },  
+ 16802837: () => { document.exitFullscreen(); },  
+ 16802864: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 16802997: () => { if (document.fullscreenElement) return 1; },  
+ 16803043: () => { return document.getElementById('canvas').width; },  
+ 16803095: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 16803163: () => { if (document.fullscreenElement) return 1; },  
+ 16803209: () => { return document.getElementById('canvas').width; },  
+ 16803261: () => { return screen.width; },  
+ 16803286: () => { if (document.fullscreenElement) return 1; },  
+ 16803332: () => { return document.getElementById('canvas').width; },  
+ 16803384: () => { return screen.width; },  
+ 16803409: () => { document.exitFullscreen(); },  
+ 16803436: () => { if (document.fullscreenElement) return 1; },  
+ 16803482: () => { return document.getElementById('canvas').width; },  
+ 16803534: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 16803602: () => { document.exitFullscreen(); },  
+ 16803629: () => { return screen.width; },  
+ 16803654: () => { return screen.height; },  
+ 16803680: () => { return window.screenX; },  
+ 16803707: () => { return window.screenY; },  
+ 16803734: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 16803787: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
+ 16803858: () => { document.getElementById('canvas').style.cursor = 'none'; },  
+ 16803915: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
+ 16803986: () => { if (document.fullscreenElement) return 1; },  
+ 16804032: () => { if (document.pointerLockElement) return 1; }
 };
 function GetWindowInnerWidth() { return window.innerWidth; }
 function GetWindowInnerHeight() { return window.innerHeight; }
@@ -10424,8 +10424,8 @@ var _asyncify_start_unwind = createExportWrapper('asyncify_start_unwind');
 var _asyncify_stop_unwind = createExportWrapper('asyncify_stop_unwind');
 var _asyncify_start_rewind = createExportWrapper('asyncify_start_rewind');
 var _asyncify_stop_rewind = createExportWrapper('asyncify_stop_rewind');
-var ___start_em_js = Module['___start_em_js'] = 16803839;
-var ___stop_em_js = Module['___stop_em_js'] = 16803912;
+var ___start_em_js = Module['___start_em_js'] = 16804079;
+var ___stop_em_js = Module['___stop_em_js'] = 16804152;
 
 // include: postamble.js
 // === Auto-generated postamble setup entry stuff ===
