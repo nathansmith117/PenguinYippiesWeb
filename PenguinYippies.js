@@ -39,7 +39,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpk544qukn.js
+// include: /tmp/tmpii4aj_bb.js
 
   if (!Module.expectedDataFileDownloads) {
     Module.expectedDataFileDownloads = 0;
@@ -216,25 +216,25 @@ Module['FS_createPath']("/", "assets", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/booperTool.png", "start": 0, "end": 89140}, {"filename": "/assets/buttonBox.gif", "start": 89140, "end": 169306}, {"filename": "/assets/clicker.gif", "start": 169306, "end": 1057009}, {"filename": "/assets/clickerTool.png", "start": 1057009, "end": 1058204}, {"filename": "/assets/emperorShopUI.png", "start": 1058204, "end": 1226124}, {"filename": "/assets/madeWithUnity.gif", "start": 1226124, "end": 17394332}, {"filename": "/assets/mainScreenBackground.png", "start": 17394332, "end": 17463845}, {"filename": "/assets/penguinBackground.png", "start": 17463845, "end": 17616514}, {"filename": "/assets/penguinBillboard.png", "start": 17616514, "end": 17627857}, {"filename": "/assets/penguinLol.gif", "start": 17627857, "end": 17686389}, {"filename": "/assets/shopBoard.png", "start": 17686389, "end": 17851276}, {"filename": "/assets/stoneCurrency.png", "start": 17851276, "end": 18587169}, {"filename": "/assets/toEmperorsEmporiumIcon.png", "start": 18587169, "end": 19520873}, {"filename": "/assets/toGameIcon.png", "start": 19520873, "end": 20321781}], "remote_package_size": 20321781});
+    loadPackage({"files": [{"filename": "/assets/booperTool.png", "start": 0, "end": 89140}, {"filename": "/assets/buttonBox.gif", "start": 89140, "end": 169306}, {"filename": "/assets/clicker.gif", "start": 169306, "end": 1057009}, {"filename": "/assets/clickerTool.png", "start": 1057009, "end": 1058204}, {"filename": "/assets/emperorShopUI.png", "start": 1058204, "end": 1226124}, {"filename": "/assets/gackPenguin.png", "start": 1226124, "end": 1322386}, {"filename": "/assets/madeWithUnity.gif", "start": 1322386, "end": 17490594}, {"filename": "/assets/mainScreenBackground.png", "start": 17490594, "end": 17560107}, {"filename": "/assets/penguinBackground.png", "start": 17560107, "end": 17712776}, {"filename": "/assets/penguinBillboard.png", "start": 17712776, "end": 17724119}, {"filename": "/assets/penguinLol.gif", "start": 17724119, "end": 17782651}, {"filename": "/assets/shopBoard.png", "start": 17782651, "end": 17947538}, {"filename": "/assets/stoneCurrency.png", "start": 17947538, "end": 18683431}, {"filename": "/assets/toEmperorsEmporiumIcon.png", "start": 18683431, "end": 18724283}, {"filename": "/assets/toGackIcon.png", "start": 18724283, "end": 18756781}, {"filename": "/assets/toGameIcon.png", "start": 18756781, "end": 18793437}], "remote_package_size": 18793437});
 
   })();
 
-// end include: /tmp/tmpk544qukn.js
-// include: /tmp/tmp24af3eb2.js
+// end include: /tmp/tmpii4aj_bb.js
+// include: /tmp/tmpkv2vuv2w.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmp24af3eb2.js
-// include: /tmp/tmpwegenf1o.js
+  // end include: /tmp/tmpkv2vuv2w.js
+// include: /tmp/tmp_d80t74w.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach(function(task) {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpwegenf1o.js
+  // end include: /tmp/tmp_d80t74w.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -1131,40 +1131,40 @@ function dbg(...args) {
 // === Body ===
 
 var ASM_CONSTS = {
-  16802968: () => { if (document.fullscreenElement) return 1; },  
- 16803014: () => { return document.getElementById('canvas').width; },  
- 16803066: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 16803134: () => { document.exitFullscreen(); },  
- 16803161: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 16803234: () => { if (document.fullscreenElement) return 1; },  
- 16803280: () => { return document.getElementById('canvas').width; },  
- 16803332: () => { return screen.width; },  
- 16803357: () => { document.exitFullscreen(); },  
- 16803384: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 16803517: () => { if (document.fullscreenElement) return 1; },  
- 16803563: () => { return document.getElementById('canvas').width; },  
- 16803615: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 16803683: () => { if (document.fullscreenElement) return 1; },  
- 16803729: () => { return document.getElementById('canvas').width; },  
- 16803781: () => { return screen.width; },  
- 16803806: () => { if (document.fullscreenElement) return 1; },  
- 16803852: () => { return document.getElementById('canvas').width; },  
- 16803904: () => { return screen.width; },  
- 16803929: () => { document.exitFullscreen(); },  
- 16803956: () => { if (document.fullscreenElement) return 1; },  
- 16804002: () => { return document.getElementById('canvas').width; },  
- 16804054: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 16804122: () => { document.exitFullscreen(); },  
- 16804149: () => { return screen.width; },  
- 16804174: () => { return screen.height; },  
- 16804200: () => { return window.screenX; },  
- 16804227: () => { return window.screenY; },  
- 16804254: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 16804307: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 16804378: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 16804435: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 16804506: () => { if (document.fullscreenElement) return 1; },  
- 16804552: () => { if (document.pointerLockElement) return 1; }
+  16803848: () => { if (document.fullscreenElement) return 1; },  
+ 16803894: () => { return document.getElementById('canvas').width; },  
+ 16803946: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 16804014: () => { document.exitFullscreen(); },  
+ 16804041: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 16804114: () => { if (document.fullscreenElement) return 1; },  
+ 16804160: () => { return document.getElementById('canvas').width; },  
+ 16804212: () => { return screen.width; },  
+ 16804237: () => { document.exitFullscreen(); },  
+ 16804264: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 16804397: () => { if (document.fullscreenElement) return 1; },  
+ 16804443: () => { return document.getElementById('canvas').width; },  
+ 16804495: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 16804563: () => { if (document.fullscreenElement) return 1; },  
+ 16804609: () => { return document.getElementById('canvas').width; },  
+ 16804661: () => { return screen.width; },  
+ 16804686: () => { if (document.fullscreenElement) return 1; },  
+ 16804732: () => { return document.getElementById('canvas').width; },  
+ 16804784: () => { return screen.width; },  
+ 16804809: () => { document.exitFullscreen(); },  
+ 16804836: () => { if (document.fullscreenElement) return 1; },  
+ 16804882: () => { return document.getElementById('canvas').width; },  
+ 16804934: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 16805002: () => { document.exitFullscreen(); },  
+ 16805029: () => { return screen.width; },  
+ 16805054: () => { return screen.height; },  
+ 16805080: () => { return window.screenX; },  
+ 16805107: () => { return window.screenY; },  
+ 16805134: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 16805187: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
+ 16805258: () => { document.getElementById('canvas').style.cursor = 'none'; },  
+ 16805315: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
+ 16805386: () => { if (document.fullscreenElement) return 1; },  
+ 16805432: () => { if (document.pointerLockElement) return 1; }
 };
 function GetWindowInnerWidth() { return window.innerWidth; }
 function GetWindowInnerHeight() { return window.innerHeight; }
@@ -10425,8 +10425,8 @@ var _asyncify_start_unwind = createExportWrapper('asyncify_start_unwind', 1);
 var _asyncify_stop_unwind = createExportWrapper('asyncify_stop_unwind', 0);
 var _asyncify_start_rewind = createExportWrapper('asyncify_start_rewind', 1);
 var _asyncify_stop_rewind = createExportWrapper('asyncify_stop_rewind', 0);
-var ___start_em_js = Module['___start_em_js'] = 16804599;
-var ___stop_em_js = Module['___stop_em_js'] = 16804672;
+var ___start_em_js = Module['___start_em_js'] = 16805479;
+var ___stop_em_js = Module['___stop_em_js'] = 16805552;
 
 // include: postamble.js
 // === Auto-generated postamble setup entry stuff ===
